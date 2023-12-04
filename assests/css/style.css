@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+*{  font-family: "sofia", sans-serif; 
+  /* font-family: 'Crimson Pro', serif;  */
+  /* font-family: 'Bungee Spice', cursive;  */
+  background-color: rgb(189, 203, 235);
+}
+
+/* *{ font-family: 'Crimson Pro', serif; 
+  font-family: "sofia", sans-serif;   
+  font-family: 'Bungee Spice', cursive; 
+ } */
+
+
+ .calculator{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ input[type="button"] {
+  background-color: black;
+  color: white;
+  border: solid rgb(4, 70, 90) 2px;
+  width: 100%;
+ }
+
+ input[ type="text" ]{
+  background-color:  rgb(189, 203, 235);
+  color: black;
+  border: solid black 2px;
+  width: 100%;
+ }
+ 
